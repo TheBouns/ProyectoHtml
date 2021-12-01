@@ -1,0 +1,246 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+p:first-child {
+  color: #000066;
+}
+/**********************Index***********************************/
+
+#masterDiv {
+  margin: 0;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638363669/lake-4541454_1280_gwvcaf.jpg");
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3em;
+  background-color: whitesmoke;
+}
+#navList {
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  gap: 40px;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+h1 {
+  color: white;
+  font-size: 75px;
+  height: 200px;
+}
+footer {
+  height: 100px;
+  /* width: 100vw; */
+
+  margin-top: 2px;
+  text-align: center;
+}
+
+a {
+  -webkit-text-stroke-width: 1px;
+}
+h2 {
+  font-size: 30px;
+  color: white;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  height: 25px;
+  justify-self: end;
+}
+.iconList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+/*************Estilos Formulario***********************************/
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+.labelF {
+  padding-top: 30px;
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: "Lobster", cursive;
+}
+.box {
+  width: 400px;
+  height: 30px;
+}
+.submit {
+  background: #b3d9ff;
+  color: white;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.black {
+  color: black;
+  font-family: "Lobster", cursive;
+  height: auto;
+  text-decoration: underline red 2px;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+button {
+  font-family: "Lobster", cursive;
+}
+/************About*****************/
+main {
+  display: flex;
+  flex-direction: column;
+}
+#info {
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.aboutPhoto {
+  height: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+#studies {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 20px;
+}
+.padding20 {
+  padding-top: 20px;
+}
