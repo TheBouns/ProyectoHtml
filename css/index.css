@@ -109,8 +109,12 @@ p:first-child {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638363669/lake-4541454_1280_gwvcaf.jpg");
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638381088/boat-g44097d9de_1920_i01x2r.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
 }
 nav {
   display: flex;
@@ -133,24 +137,25 @@ a:visited {
   cursor: pointer;
 }
 h1 {
-  color: white;
+  color: black;
   font-size: 75px;
   height: 200px;
 }
-footer {
+/*footer {
   height: 100px;
-  /* width: 100vw; */
+  /* width: 100vw; 
 
   margin-top: 2px;
   text-align: center;
-}
+  justify-self: flex-end;
+}*/
 
 a {
   -webkit-text-stroke-width: 1px;
 }
 h2 {
   font-size: 30px;
-  color: white;
+  color: black;
 }
 footer {
   display: flex;
@@ -170,9 +175,11 @@ footer {
 /*************Estilos Formulario***********************************/
 
 #formulario {
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638380803/nature-g01dd65ff2_1920_adbncr.jpg");
 }
 form {
   display: flex;
@@ -221,9 +228,9 @@ button {
 main {
   display: flex;
   flex-direction: column;
+  height: 100vh;
 }
 #info {
-  width: 100vw;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -234,7 +241,6 @@ main {
   border-radius: 50%;
 }
 #studies {
-  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -243,4 +249,23 @@ main {
 }
 .padding20 {
   padding-top: 20px;
+}
+/*******************Portfolio*********************/
+.techContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: black solid 2px;
+  width: 350px;
+  height: 400px;
+}
+#about {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.javaScript {
+  background-size: cover;
 }
