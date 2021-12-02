@@ -380,3 +380,40 @@ header{
     text-align: center;
   }
 }
+@media (min-width:319px) and (max-width:414px){
+  #studys{
+    margin: 0px 15px;
+  }
+  #navList{
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+  }
+}
+@media (min-width:320px) and (max-width:360px){
+  .box{
+    width: 200px;
+    height: 20px;
+  }
+  .labelF {
+    padding-top: 30px;
+    font-size: 20px;
+    align-self: center;
+  }
+  nav{
+    padding: 0;
+  }
+  main{
+    width: 100%;
+  }
+  textarea {
+    width: 200px;
+    height: 100px;
+  }
+  .iconList{
+    font-size: 1.2rem;
+  }
+
+}
