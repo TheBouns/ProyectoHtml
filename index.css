@@ -1,0 +1,409 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+p {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  list-style: none;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  line-height: 1;
+}
+main {
+  display: flex;
+  flex-direction: column;
+}
+.position {
+  position: fixed;
+}
+.a-clean {
+  text-decoration: none;
+  -webkit-text-stroke-width: 0px;
+  color: black;
+  cursor: pointer;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  -webkit-text-stroke-width: 1px;
+}
+
+/**********************Index***********************************/
+
+#masterDiv {
+  margin: 0;
+  height: 100vh;
+  color: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+}
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638381088/boat-g44097d9de_1920_i01x2r.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 3em;
+  background-color: whitesmoke;
+  padding-right: 2rem;
+}
+#navList {
+  display: flex;
+  justify-content: center;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  gap: 40px;
+}
+
+h1 {
+  color: black;
+  font-size: 75px;
+  height: 200px;
+}
+
+h2 {
+  font-size: 30px;
+  color: black;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: whitesmoke;
+  height: 25px;
+  align-self: center;
+  padding-bottom: 1rem;
+}
+.iconList {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+/*************Estilos Formulario***********************************/
+
+#formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("https://res.cloudinary.com/ducxt7zb3/image/upload/v1638380803/nature-g01dd65ff2_1920_adbncr.jpg");
+  height: 100vh;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+textarea {
+  width: 400px;
+  height: 100px;
+}
+.labelF {
+  padding-top: 30px;
+  font-size: 20px;
+  align-self: flex-start;
+  font-family: "Lobster", cursive;
+}
+.box {
+  width: 400px;
+  height: 30px;
+}
+.submit {
+  background: #b3d9ff;
+  color: white;
+  width: 400px;
+  height: 30px;
+  text-align: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.black {
+  color: black;
+  font-family: "Lobster", cursive;
+  height: auto;
+  text-decoration: underline red 2px;
+  font-size: 50px;
+  padding-top: 10px;
+}
+
+button {
+  font-family: "Lobster", cursive;
+  margin-bottom: 5rem;
+}
+/************About*****************/
+#about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3ebea;
+}
+.aboutPhoto {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+.about-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 500px;
+  font-family: "Lobster", cursive;
+  font-size: 25px;
+  text-decoration: underline black 2px;
+  margin-top: 15px;
+}
+#studys {
+  text-align: center;
+  margin: 30px 100px;
+}
+p {
+  font-size: 20px;
+  font-family: "Lobster", cursive;
+}
+.about-info {
+  text-align: center;
+  margin: 0px 70px;
+}
+.about-li {
+  margin-top: 15px;
+}
+header {
+  font-family: "Lobster", cursive;
+  font-size: 30px;
+  text-decoration: underline 2px black;
+}
+
+/*******************Portfolio*********************/
+.techContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#about {
+  height: 100vh;
+  background-color: #171616;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#external {
+  margin-top: 30px;
+}
+.javaScript {
+  background-size: cover;
+}
+.icon-xl {
+  font-size: 8.2rem;
+  margin: 0.2em;
+}
+.icon-xl:hover {
+  background-color: white;
+}
+.icon-mid {
+  font-size: 3rem;
+  color: white;
+  margin-right: 15px;
+}
+.nodejs {
+  color: #6cc24a;
+}
+.text-icons {
+  letter-spacing: 0.2em;
+  color: white;
+  margin-top: 0.5em;
+}
+.h2-white {
+  color: white;
+  font-family: "Lobster", cursive;
+}
+/***************Media Querys********************/
+/*Querys Portfolio*/
+@media (max-width: 760px) {
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .icon-xl {
+    font-size: 5rem;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    background-color: whitesmoke;
+  }
+  #navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+  }
+  .text-icons {
+    display: none;
+  }
+  .h2-white {
+    margin-top: 20px;
+  }
+  .iconList {
+    gap: 3rem;
+    font-size: 2rem;
+  }
+}
+@media (min-width: 760px) and (max-width: 1103px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #about {
+    padding-top: 40px;
+  }
+  .icon-xl {
+    font-size: 6rem;
+  }
+  .text-icons {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+@media (min-width: 319px) and (max-width: 414px) {
+  #studys {
+    margin: 0px 15px;
+  }
+  #navList {
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 360px) {
+  .box {
+    width: 200px;
+    height: 20px;
+  }
+  .labelF {
+    padding-top: 30px;
+    font-size: 20px;
+    align-self: center;
+  }
+  nav {
+    padding: 0;
+  }
+  main {
+    width: 100%;
+  }
+  textarea {
+    width: 200px;
+    height: 100px;
+  }
+  .iconList {
+    font-size: 1.2rem;
+  }
+}
+/**final**/
