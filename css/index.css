@@ -220,6 +220,7 @@ textarea {
 
 button {
   font-family: "Lobster", cursive;
+  margin-bottom: 5rem;
 }
 /************About*****************/
 #about-info{
@@ -269,14 +270,16 @@ header{
 /*******************Portfolio*********************/
 .techContainer {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  width: 350px;
+  
 }
 #about {
   height: 100vh;
   background-color: #171616;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
