@@ -279,7 +279,6 @@ header{
   height: 100vh;
   background-color: #171616;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -293,6 +292,9 @@ header{
 .icon-xl {
   font-size: 8.2rem;
   margin: 0.2em;
+}
+.icon-xl:hover{
+  background-color: white;
 }
 .icon-mid {
   font-size: 3rem;
@@ -312,6 +314,42 @@ header{
   font-family: "Lobster", cursive;
 }
 /***************Media Querys********************/
-@media (min-width: 760px){
-  
+/*Querys Portfolio*/
+@media (max-width: 760px){
+  #about{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+  }
+  .icon-xl{
+    font-size: 5rem;
+
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3em;
+    background-color: whitesmoke;
+    
+  }
+  #navList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lobster", cursive;
+    font-size: 1.5rem;
+    
+  }
+  .text-icons{
+    display: none;
+  }
+  .h2-white{
+    margin-top: 20px;
+  }
+  .iconList{
+    gap: 3rem;
+    font-size: 2rem;
+  }
 }
